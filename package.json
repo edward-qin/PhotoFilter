@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "android": "PhotoFilter/node_modules/.bin/react-native run-android",
+    "ios": "PhotoFilter/node_modules/.bin/react-native run-ios",
+    "start": "PhotoFilter/node_modules/.bin/react-native start",
+    "test": "PhotoFilter/node_modules/.bin/jest",
+    "lint": "PhotoFilter/node_modules/.bin/eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.68.2"
+    "react-native": "^0.69.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
